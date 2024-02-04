@@ -99,7 +99,7 @@ def run():
         news_list = fetch_top_news()
         display_news(news_list, no_of_news)
     elif cat_op == category[2]:
-        av_topics = ['Choose Topic', 'WORLD', 'NATION', 'BUSINESS', 'TECHNOLOGY', 'ENTERTAINMENT', 'SPORTS', 'SCIENCE',
+        av_topics = ['Choose Topic', 'WORLDS', 'NATION', 'BUSINESS', 'TECHNOLOGY', 'ENTERTAINMENT', 'SPORTS', 'SCIENCE',
                      'HEALTH']
         st.subheader("Choose your favourite Topic")
         chosen_topic = st.selectbox("Choose your favourite Topic", av_topics)
